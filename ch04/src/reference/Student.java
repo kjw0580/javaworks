@@ -2,10 +2,10 @@ package reference;
 
 public class Student {
 	//필드
-	int studentID;  //학번
-	String studentName; //이름
-	Subject korean;
-	Subject math;
+	public int studentID;  //학번
+	public String studentName; //이름
+	public Subject korean;
+	public Subject math;
 	
 	//생성자
 	public Student(int studentID, String studentName) {
